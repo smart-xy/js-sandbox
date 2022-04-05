@@ -1,21 +1,43 @@
-var operator = prompt('Enter operator (either +,-,* or /)');
-var number1 = prompt('Enter first number: ');
-var number2 = prompt('Enter second number: ');
+// var operator = prompt('Enter operator (either +,-,* or /)');
+// var number1 = prompt('Enter first number: ');
+// var number2 = prompt('Enter second number: ');
 
-let result;
+// let result;
 
-if(operator == '+'){
-    alert('The Answer is: ' + (result = number1 + number2));
-} 
-else if(operator == '-'){
-    alert('The Answer is: ' + (result = number1 - number2));
+// if(operator == '+'){
+//     alert('The Answer is: ' + (result = number1 + number2));
+// } 
+// else if(operator == '-'){
+//     alert('The Answer is: ' + (result = number1 - number2));
+// }
+// else if(operator == '*'){
+//     alert('The Answer is: ' + (result = number1 * number2));
+// }
+// else if(operator == '/'){
+//     alert('The Answer is: ' + (result = number1 / number2));
+// }
+// else{
+//     alert('Sorry, number invalid');
+// }
+
+
+//Using Functions
+
+function add(number1, number2){
+    var sum = number1 + number2;
+    return sum;
 }
-else if(operator == '*'){
-    alert('The Answer is: ' + (result = number1 * number2));
+function subtract(number1, number2){
+    var diff = number1 - number2;
+    return diff;
 }
-else if(operator == '/'){
-    alert('The Answer is: ' + (result = number1 / number2));
+
+function multiply(number1, number2){
+    var product = number1 * number2;
+    return product;
 }
-else{
-    alert('Sorry, number invalid');
+
+function divide(number1, number2){
+    var quotient = number1 / number2;
+    return quotient;
 }
