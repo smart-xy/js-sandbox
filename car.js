@@ -9,7 +9,7 @@ function checkDriverAge(){
         return alert("Congratulations! on your first year of driving.... Enjoy your ride!");
     }
     else if (Number (age) > 18){
-        return alert("Powering On.... Enjoy your ride!");
+        return alert("Powering On... Enjoy your ride!");
     }
 }
 checkDriverAge();
